@@ -84,7 +84,7 @@ export default {
   .backtop
     display: none;
     margin-left: 631px
-    background: url("~static/backtop.png") left top no-repeat
+    background: url("~static/img/backtop.png") left top no-repeat
     width: 28px
     height: 46px
     position: fixed
@@ -164,7 +164,7 @@ export default {
               display: inline-block
               width: 16px
               height: 16px
-              background: url("~static/sprite.png") -150px -184px no-repeat
+              background: url("~static/img/sprite.png") -150px -184px no-repeat
               margin: 0 5px 0 0
           .footer_jubao
             margin: 0 0 0 20px
@@ -176,7 +176,7 @@ export default {
               display: inline-block
               width: 20px
               height: 24px
-              background: url("~static/sprite.png") -132px -20px no-repeat
+              background: url("~static/img/sprite.png") -132px -20px no-repeat
               margin: 0 10px 0 0
             p
               text-align: left
@@ -189,5 +189,5 @@ export default {
           display: inline-block
           width: 198px
           height: 19px
-          background: url("~static/footer_icon.png") 0 0 no-repeat
+          background: url("~static/img/footer_icon.png") 0 0 no-repeat
 </style>

@@ -13,7 +13,7 @@
         </div>
         <el-menu :default-active="activeIndex" class="nav_wrap" mode="horizontal" router>
           <el-menu-item index="/"><a>首页</a></el-menu-item>
-          <el-menu-item index="jobs/list"><a>职位搜索</a></el-menu-item>
+          <el-menu-item index="/company"><a>公司</a></el-menu-item>
           <el-menu-item index="/school"><a>校园</a></el-menu-item>
           <el-menu-item index="/career"><a>言职</a></el-menu-item>
         </el-menu>
@@ -118,7 +118,7 @@ export default {
             padding: 0
             font-weight: 400
             font-size: 2em
-            background-image: url("~static/logo1.png")
+            background-image: url("~static/img/logo1.png")
             background-size: 97px 34px
             overflow: hidden
             text-indent: -99em
@@ -254,15 +254,18 @@ export default {
         margin 0
       .close
         position absolute
-        top 12px
-        right 12px
+        top 6px
+        right 6px
         background url(//static.lagou.com/www/static/common/components/jquery-colorbox-custom/img/controls_74ddda3.png) no-repeat
-        width 19px
-        height 19px
+        background-position 6px 6px
+        width 31px
+        height 31px
         text-indent -9999px
         border 0
         padding 0
         margin 0
         overflow visible
-
+        cursor pointer
+        &:hover
+          background-color: rgba(255,0,0,.8)
 </style>

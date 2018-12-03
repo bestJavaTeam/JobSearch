@@ -3,7 +3,7 @@
     <div class="search-wrapper">
       <div class="search-box">
         <el-input prefix-icon="el-icon-search" v-model="input" placeholder="搜索职位、公司或地点" class="search_input"></el-input>
-        <router-link to="/jobs/list" tag="div"><el-input type="submit" class="search_btn" value="搜索" /></router-link>
+        <router-link to="/jobs/list"><el-input type="submit" class="search_btn" value="搜索" /></router-link>
       </div>
       <div class="guess-wrapper"></div>
       <dl class="hot-search">

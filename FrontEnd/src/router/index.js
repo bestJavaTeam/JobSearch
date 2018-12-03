@@ -2,12 +2,13 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/pages/home/Home'
 import Container from '@/pages/home/components/container/Container'
-import Login from '@/pages/home/Login'
-import MyResume from '@/pages/home/MyResume'
-import Register from '@/pages/home/Register'
-import Reg1 from '@/pages/home/Reg1'
-import Reg2 from '@/pages/home/Reg2'
-import Jobs from '@/pages/home/Jobs'
+import Login from '@/pages/login/Login'
+import MyResume from '@/pages/resume/MyResume'
+import Register from '@/pages/register/Register'
+import Reg1 from '@/pages/register/Reg1'
+import Reg2 from '@/pages/register/Reg2'
+import Jobs from '@/pages/home/components/job/Jobs'
+import Company from '@/pages/home/components/company/Company'
 
 Vue.use(Router)
 
@@ -26,12 +27,14 @@ export default new Router({
           component: Jobs
         },
         {
-          path: 'school',
-          component: Jobs
+          path: '/company',
+          component: Company
         },
         {
-          path: 'career',
-          component: Jobs
+          path: 'school'
+        },
+        {
+          path: 'career'
         }
       ]
     },
